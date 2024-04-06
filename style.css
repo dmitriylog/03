@@ -1,0 +1,45 @@
+div{
+
+    display: flex;
+}
+
+.text-white{
+color: white;
+}
+
+.bg-red{
+background-color: red;
+}
+
+.wrapper{
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spacer{
+    height: 30vh;
+}
+
+.search{
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.shop {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.shop-item {
+    flex-direction: column;
+    width: 220px;
+    padding: 10px;
+}
