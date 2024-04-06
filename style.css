@@ -40,6 +40,13 @@ background-color: red;
 
 .shop-item {
     flex-direction: column;
-    width: 220px;
+    
+    @media (max-width:400px) {
+        width: 40%; 
+    }
+    @media (min-width:400px) {
+        width: 15%; 
+    }
+
     padding: 10px;
 }
